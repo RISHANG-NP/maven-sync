@@ -15,8 +15,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <dependency>  <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
+      <id>sync-release</id>
+      <name>sync-release</name>
       <url>http://3.235.4.119:8081/repository/sync-releases/
       <layout>default</layout>
       </repository><distributionManagement>
@@ -25,7 +25,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <url>http://domain:port/content/repositories/releases</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>sync-snapshots</id>
         <url>http://3.235.4.119:8081/repository/sync-snapshot/
     </snapshotRepository>
 </distributionManagement>     
