@@ -34,8 +34,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       <version>4.8.2</version>  
       <scope>test</scope>  
     </dependency>  
-  </dependencies>  
-  
+  </dependencies>    
 </project>   
 
 
